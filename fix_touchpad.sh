@@ -17,9 +17,7 @@
 # or when complete, edit the file 
 # /usr/share/X11/xorg.conf.d/10-keyboard.conf and change "gb" for "us" etc
 
-mkdir ~/backup
-sudo mv /usr/share/X11/xorg.conf.d/* ~/backup/
-cd /usr/share/X11/xorg.conf.d/
+cd /etc/X11/xorg.conf.d/
 sudo wget https://github.com/craigerrington/chrubuntu_fixes/raw/master/xalarmchrubuntu.zip
 sudo unzip x_alarm_chrubuntu.zip
 sudo rm x_alarm_chrubuntu.zip
